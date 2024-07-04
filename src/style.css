@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  html,
+  body {
+    height: 100vh;
+  }
+
+  
+body {
+    display: flex;
+    background-color: #f1f5f9;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 1rem;
+    width: 500px;
+    height: 500px;
+    background-color: #cbd5e1;
+    border-radius: 20px;
+}
+
+form {
+    border: 3px solid black;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 1rem 1rem 0 1rem;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    display: inline-block;
+    margin-block: 4px 12px;
+    padding: 6px;
+}
