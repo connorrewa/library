@@ -24,7 +24,7 @@ html {
 
   html,
   body {
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   
@@ -35,15 +35,16 @@ body {
 }
 
 .content {
-    margin-top: 1rem;
-    width: 500px;
-    height: 500px;
+    margin-block: 1rem;
+    width: 50vw;
+    display: inline-block;
     background-color: #cbd5e1;
     border-radius: 20px;
+    padding: 24px 24px 36px 24px;
 }
 
 form {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding: 1rem;
 }
 
@@ -60,4 +61,25 @@ input {
     display: inline-block;
     margin-block: 4px 12px;
     padding: 6px;
+    font-size: 15px;
+}
+
+select {
+  width: 100%;
+  display: inline-block;
+  margin-block: 4px 12px;
+  padding: 6px;
+  font-size: 15px;
+}
+
+.library {
+  
+}
+
+.book {
+  border: 2px solid #64748b;
+  padding: 12px;
+  margin-bottom: 6px;
+  margin-inline: 12px;
+
 }

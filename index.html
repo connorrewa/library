@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css">
-    <script src="src/script.js"></script>
+    <script src="src/script.js" defer></script>
 </head>
+
 <body>
     <div class="content">
         <h1>Connor's Library</h1>
-        <form action="post">
+        <form action="#" class="book-form">
             <label for="title">Title</label>
-            <input type="text" name="title">
+            <input type="text" name="title" id="title">
 
             <label for="author">Author</label>
-            <input type="text" name="author">
+            <input type="text" name="author" id="author">
 
             <label for="pages">Number of Pages</label>
-            <input type="number" min=1 max=2000>
+            <input type="number" min=1 max=2000 id="numPages">
 
             <label for="read">Have you read this book?</label>
-            <input type="select">
+            <select name="read" id="isRead">
+
+                <option value="yes">Yes, I have read it</option>
+                <option value="no">No, I have not read it yet</option>
+            </select>
 
             <button type="submit">Add Book</button>
+            <span class="error"></span>
         </form>
 
         <div class="library">
@@ -31,6 +38,7 @@
         </div>
     </div>
 
-    
+
 </body>
+
 </html>
